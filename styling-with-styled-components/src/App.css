@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-color: #52B7FE;
 }
 
 .App-logo {
@@ -25,14 +24,15 @@
   color: white;
 }
 
-@font-face {
-  font-family: 'air';
-  src: url('./font/Cafe24Ohsquareair.ttf')
+.App-link {
+  color: #61dafb;
 }
 
-@font-face {
-  font-family: 'anemone';
-  src: url('./font/Cafe24Ohsquare.ttf')
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-
-

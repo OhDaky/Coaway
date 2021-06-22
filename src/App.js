@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react'
+import LoadingScreen from 'react-loading-screen';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+import NavBar from './Components/Nav' 
+import Main from './Pages/Main'
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    /* loading page */
+    // <LoadingScreen
+    //   loading={true}
+    //   bgColor="#52B7FE"
+    //   spinnerColor="#f4f4f4"
+    //   textColor="#ffffff"
+    //   text="COAWAY  로딩중..."
+    // >
+    // </LoadingScreen>
+    <BrowserRouter>
+      <NavBar />
+      <Switch>
+        <Route path="/" exact>
+          <Main />
+        </Route>
+      </Switch>
+    </BrowserRouter>
   );
 }
 

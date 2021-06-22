@@ -1,0 +1,58 @@
+.main {
+  float: left;
+  position: relative;
+  left: 10%;
+  top: 120px;
+  margin-right: 80px;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.title {
+  font-family: 'anemone';
+  margin-left: 50px;
+  font-size: 32px;
+  text-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+}
+
+.description {  
+  position: relative;
+  top: 40px;
+  font-size: 20px;
+}
+
+.logo {
+  width: 45px;
+  height: 36px;
+  background-image: url('../../logo_90.png');
+}
+
+.box {
+  width: 500px;
+  height: 230px;
+  background-color: white;
+  margin-right: 10%;
+  margin-top: 100px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+}
+
+.card {
+  display: inline-block;
+  position: relative;
+  margin-left: 10%;
+  margin-top: 140px;
+  margin-right: 10%;
+  width: 500px;
+  height: 435px;
+  background-color: white;  
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+}
+
+body {
+  background-color: #52B7FE;
+  font-family: 'air';
+  color: white;
+}
+  
