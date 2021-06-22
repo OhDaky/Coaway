@@ -7,8 +7,10 @@ function NavBar() {
   return (
     <div>
       <span className='header_original'>
-        <img className="logo_white"></img>
-        <p className="header">COAWAY</p>
+        <Link to='/home'>
+          <span className="logo_white"></span>
+          <span className="header">COAWAY</span>
+        </Link>
       </span>
     </div>
     )
